@@ -1,0 +1,70 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Akan Naming Traditions</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1>Akan Name Generator</h1>
+    <div>
+        <p>Welcome to the Akan Birthday Page</p>
+    </div>
+    <div>
+        <p>This website will help you know your Akan Name.Akan Names are a part of the culture of the Ghana people.Akan people name their children after the day of the week they were born and the order in which they were born. These names have further meanings
+            concerning the soul and character of a person.
+        </p>
+    </div>
+    <div>
+        <p>Most Ghanaians have at least one name from this system in addition to their Christian or English name.Famous Notable figures include Ghana's First president Kwame Nkumar and the former UN Secretary General Kofi Annan.
+        </p>
+        <p>For more on Akan names<a href="https://en.wikipedia.org/wiki/Akan_names">Visit Wikipedia</a></p>
+    </div>
+    <form class="myform" onsubmit="return getAkanName()">
+        <!--Year Label-->
+        Year:
+        <label for="year-of-birth">
+          <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+        </label>
+        <!--Month Label-->
+        Month:
+        <label for="month-of-birth">
+          <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+        </label>
+        <!--Day Label-->
+        Day:
+        <label for="day-of-birth">
+          <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+        </label>
+
+        <br>
+        <!--Gender Label-->
+        <label for="gender">
+          <p>Select your gender: </p>
+          Male
+          <input id="male-input" type="radio" name="gender" value="male" required>
+          Female
+          <input id="female-input" type="radio" name="gender" value="female" required>
+
+        </label>
+        <br><br>
+        <input id="get-name" type="submit" name="" value="Generate name">
+        <br><br>
+    </form>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
