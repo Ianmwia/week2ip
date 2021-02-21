@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Akan Name Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1>Akan Name Generator</h1>
+<div>
+<p>Welcome to the Akan Birthday Page</p>
+<div>
+<p>This website will help you know your Akan Name.Akan Names are a part of the culture of the Ghana people.Akan people name their children after the day of the week they were born and the order in which they were born. These names have further
+meanings concerning the soul and character of a person.
+</p>
+</div>
+<div>
+<p>Most Ghanaians have at least one name from this system in addition to their Christian or English name.Famous Notable figures include Ghana's First president Kwame Nkumar and the former UN Secretary General Kofi Annan.
+</p>
+<p>For more on Akan names<a href="https://en.wikipedia.org/wiki/Akan_names">Visit Wikipedia</a></p>
+</div>
+
+ <div class="container-fluid">
+      <div class="jumbotron parent">
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+          <div class="col-md-6 right">
+            <div class="panel col-sm-6 offset-sm-3">
+                    <div class="form-group top-form">
+                      <label for="century" class="labels">Century</label>
+                      <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
+                    </div>
+                    <div class="form-group">
+                      <label for="year" class="labels">Year</label>
+                      <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
+                    </div>
+                    <div class="form-group">
+                      <label for="month" class="labels">Month</label>
+                      <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
+                    </div>
+                    <div class="form-group">
+                      <label for="monthDay" class="labels">Day of month</label>
+                      <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
+                    </div>
+                    <form class="radio-button">
+                      <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                      <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                    </form>
+                    <br>
+                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
+                    <h1 id="result"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
