@@ -27,7 +27,7 @@ If any problems are encountered  please raise an issue
 Email [myaccounts@dr.com]
 
 ## Licence
-MIT LICENCES
+[MIT Licenses](https://choosealicense.com.com/licenses/mit/)
 
 ## Copyright
 Copyright(c) 2021 Ian Mwenda
